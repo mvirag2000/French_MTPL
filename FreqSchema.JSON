@@ -1,0 +1,74 @@
+[
+  {
+    "description": "policy indentifier",
+    "mode": "REQUIRED",
+    "name": "IDpol",
+    "type": "INTEGER"
+  },
+  {
+    "description": "number of claims",
+    "mode": "NULLABLE",
+    "name": "ClaimNb",
+    "type": "INTEGER"
+  },
+  {
+    "description": "exposure in fractional years",
+    "mode": "NULLABLE",
+    "name": "Exposure",
+    "type": "NUMERIC"
+  },
+  {
+    "description": "geographical area",
+    "mode": "NULLABLE",
+    "name": "Area",
+    "type": "STRING"
+  },
+  {
+    "description": "vehicle power rating",
+    "mode": "NULLABLE",
+    "name": "VehPower",
+    "type": "INTEGER"
+  },
+  {
+    "description": "vehicle age",
+    "mode": "NULLABLE",
+    "name": "VehAge",
+    "type": "INTEGER"
+  },
+  {
+    "description": "driver age",
+    "mode": "NULLABLE",
+    "name": "DrivAge",
+    "type": "INTEGER"
+  },
+  {
+    "description": "arbitrary goodness metric",
+    "mode": "NULLABLE",
+    "name": "BonusMalus",
+    "type": "INTEGER"
+  },  
+  {
+    "description": "vehicle make",
+    "mode": "NULLABLE",
+    "name": "VehBrand",
+    "type": "STRING"
+  },    
+  {
+    "description": "vehicle fuel type",
+    "mode": "NULLABLE",
+    "name": "VehGas",
+    "type": "STRING"
+  },      
+  {
+    "description": "urban density",
+    "mode": "NULLABLE",
+    "name": "Density",
+    "type": "INTEGER"
+  },       
+  {
+    "description": "geo region",
+    "mode": "NULLABLE",
+    "name": "Region",
+    "type": "STRING"
+  }
+ ]

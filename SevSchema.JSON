@@ -1,0 +1,14 @@
+[
+  {
+    "description": "policy indentifier",
+    "mode": "REQUIRED",
+    "name": "IDpol",
+    "type": "INTEGER"
+  },
+  {
+    "description": "amount of each claim",
+    "mode": "NULLABLE",
+    "name": "ClaimAmount",
+    "type": "NUMERIC"
+  }
+ ]
